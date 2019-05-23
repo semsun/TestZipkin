@@ -1,0 +1,15 @@
+server:
+  port: 8320
+
+spring:
+  application:
+    name: serviceback
+  zipkin:
+    base-url: http://127.0.0.1:8200
+
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: 'guest'
+    password: 'guest'

@@ -1,0 +1,15 @@
+server:
+  port: 8310
+
+spring:
+  application:
+    name: servicefront
+  zipkin:
+    base-url: http://127.0.0.1:8200
+
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: 'guest'
+    password: 'guest'
